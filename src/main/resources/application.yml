@@ -1,0 +1,19 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: statistics
+
+  banner:
+    location: banner/banner-${spring.profiles.active}.txt
+
+  profiles:
+    active: local
+    include: datasource
+
+
+logging:
+  level:
+    io.pleaze.plzpacing: DEBUG
+    org.hibernate.SQL: DEBUG
