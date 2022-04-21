@@ -2,17 +2,17 @@ spring:
   config:
     activate:
       on-profile: local
-  datasource:
-    url: jdbc:mysql://localhost:3306/statistics
-    username: root
-    password: 1234
-    driver-class-name: org.mysql.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        format_sql: true
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/statistics
+#    username: root
+#    password: 1234
+#    driver-class-name: org.mysql.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        format_sql: true
 
 
 ---

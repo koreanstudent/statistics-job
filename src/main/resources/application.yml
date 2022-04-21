@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8085
 
 spring:
   application:
@@ -15,5 +15,5 @@ spring:
 
 logging:
   level:
-    io.pleaze.plzpacing: DEBUG
+    co.kr.statistics: DEBUG
     org.hibernate.SQL: DEBUG
